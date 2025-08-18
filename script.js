@@ -10,4 +10,10 @@ function toggleMode() {
   } else {
     img.setAttribute("src", "./assets/avatar.png")
   }
+
+  if (html.classList.contains("light")) {
+    img.setAttribute("alt", "Foto de Luciano sorrindo usando boné")
+  } else {
+    img.setAttribute("alt", "Foto de Luciano de barba usando óculos escuros")
+  }
 }
